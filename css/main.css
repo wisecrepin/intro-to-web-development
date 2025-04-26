@@ -25,7 +25,8 @@ li {
   margin: 0 12px;
 }
 a{
-text-decoration: none  
+text-decoration: none ;
+ color:#000000;
 }
 .hero {
   background-image: url('/images/hero.png');
