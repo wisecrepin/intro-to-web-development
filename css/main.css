@@ -9,7 +9,9 @@
   border: none;
   max-width: 100%;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 /* Write your code below this */
 .navbar {
   width: 100%;
@@ -21,6 +23,9 @@ li {
   display: inline-block;
   list-style-type: none;
   margin: 0 12px;
+}
+a{
+text-decoration: none  
 }
 .hero {
   background-image: url('/images/hero.png');
@@ -53,19 +58,34 @@ h2 {
   margin-bottom: 57px;
 }
 
-#aboutme {
-  color: white;
-  font-size: 32px;
-  text-align: center;
-  font-weight: 500;
-  margin-bottom: 57px;
+.aboutme {
+  display:flex;
+ flex-direction: column;
+align-items: center;  
+height:388px;
+padding: 32px;
 }
-.except{
-  color: black;
-  font-size: 32px;
-  text-align: center;
-  font-weight: 500;
-  margin-bottom: 57px;
+.secthe{
+  
+height: 39px;
+
+font-weight: 500;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+}
+.sectp{
+
+height: 96px;
+font-weight: 500;
+font-size: 20px;
+line-height: Headline Small/Line Height;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+
 } 
 
 
@@ -94,6 +114,10 @@ h3 {
   font-size: 20px;
   margin-bottom: 12px;
   color: black;
+}
+.goal{
+  background-color: #D9D9D9;
+;
 }
 footer {
   background: #333232;
