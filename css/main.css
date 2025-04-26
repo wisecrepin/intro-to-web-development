@@ -46,50 +46,21 @@ button {
   padding: 57px 0;
 }
 
-h2 {
+#aboutM {
   color: white;
   font-size: 32px;
   text-align: center;
   font-weight: 500;
   margin-bottom: 57px;
 }
-.aboutme{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-   padding:50px;
-  margin-bottom: 100px;
-}
-.goal{
-  background-color: #D9D9D9;
-  ;
-  height: 388px;
-width:100%;  
-}
-.aboutme h2{
+.except{
+  color: black;
+  font-size: 32px;
   text-align: center;
-  width: 1000px;
-   height: 39px;
-font-size: 32px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-color: #000000;
+  font-weight: 500;
+  margin-bottom: 57px;
+} 
 
-}
-.aboutme p{
-width: 100%;
-height: auto;
-
-font-weight: 500;
-font-size: 20px;
-line-height: Headline Small/Line Height;
-letter-spacing: 0%;
-text-align: center;
-color: #000000;
-
-}
 
 .journey-list {
   display: flex;
