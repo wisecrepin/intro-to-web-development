@@ -45,8 +45,15 @@ button {
   background: #618379;
   padding: 57px 0;
 }
+h2 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 57px;
+}
 
-#aboutM {
+#aboutme {
   color: white;
   font-size: 32px;
   text-align: center;
